@@ -13,7 +13,7 @@ const CustomerReviewCard = ({ photo, name, review, starImage }) => {
           "linear-gradient(147.93deg, rgba(255,255,255,0.2) 6.68%, rgba(0,0,0,0) 51.71%, rgba(255,255,255,0.2) 93.27%) 1",
       }}
     >
-      {/* Customer Photo */}
+
       <div className="w-[120px] h-[120px] rounded-full overflow-hidden shadow-lg mb-4">
         <img
           src={photo}
@@ -22,12 +22,12 @@ const CustomerReviewCard = ({ photo, name, review, starImage }) => {
         />
       </div>
 
-      {/* Name */}
+
       <h2 className="text-[38px] font-inter font-semibold text-white mb-3">
         {name}
       </h2>
 
-      {/* Star Image */}
+   
       <div className="flex justify-center mb-5">
         <img
           src={starImage}
@@ -36,7 +36,7 @@ const CustomerReviewCard = ({ photo, name, review, starImage }) => {
         />
       </div>
 
-      {/* Review */}
+      
       <p className="text-[24px] font-inter text-white/80 leading-snug w-[403px]">
         {review}
       </p>
