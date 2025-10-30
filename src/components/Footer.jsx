@@ -5,7 +5,6 @@ const Footer = () => {
     <footer className="bg-[#121A11] text-white py-16 px-20 font-['Inter']">
       <div className="max-w-[1728px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
 
-        {/* LEFT SECTION */}
         <div>
           <div className="flex items-center mb-6">
             <img
@@ -30,7 +29,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* MIDDLE SECTION */}
         <div>
           <h2 className="text-[28px] font-extrabold mb-6">Quick Link’s</h2>
           <ul className="space-y-5 text-[24px] font-medium underline">
@@ -57,7 +55,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* RIGHT SECTION */}
         <div>
           <h2 className="text-[28px] font-extrabold mb-6">For Every Update.</h2>
           <div className="flex items-center border-2 border-white rounded-lg overflow-hidden w-[562px] h-[74px]">
@@ -73,7 +70,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* BOTTOM COPYRIGHT */}
       <div className="mt-10 text-center md:text-right text-[24px] font-medium text-white opacity-90">
         FloraVision © all right reserve
       </div>

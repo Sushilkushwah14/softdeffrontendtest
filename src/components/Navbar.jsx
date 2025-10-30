@@ -5,9 +5,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <header className="w-full absolute top-0 left-0 z-50 px-10 py-6 flex items-center justify-between bg-transparent">
-      {/* Logo Section */}
       <div className="flex items-center gap-3">
-        {/* Container box for plant image */}
        <div
           className="flex items-center justify-center w-[45px] h-[45px]  rounded-[10px]"
           style={{
@@ -27,7 +25,6 @@ const Navbar = () => {
         </h1>
       </div>
 
-      {/* Navigation Links */}
       <nav className="hidden md:flex items-center gap-12 text-white font-[Indie_Flower] text-[22px]">
         <a href="#" className="hover:opacity-70 transition">
           Home
@@ -46,7 +43,6 @@ const Navbar = () => {
         </a>
       </nav>
 
-      {/* Right Icons */}
       <div className="flex items-center gap-6">
         <img
           src="/search.png"

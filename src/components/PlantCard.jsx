@@ -16,20 +16,19 @@ const PlantCard = ({ data, layout = "left" }) => {
         borderStyle: "solid",
         borderImage:
           "linear-gradient(135.72deg, rgba(255,255,255,0.27) 8.53%, rgba(255,255,255,0) 60.59%, rgba(255,255,255,0.33) 93.17%) 1",
-        background: "rgba(255, 255, 255, 0.06)", // subtle glass effect
+        background: "rgba(255, 255, 255, 0.06)", 
         WebkitBackdropFilter: "blur(25px)",
         backdropFilter: "blur(25px)",
         zIndex: 3,
-        marginTop: "160px", // gives space from previous section
+        marginTop: "160px", 
         marginBottom: "100px",
         boxShadow: "0 0 40px rgba(0,0,0,0.25)",
       }}
     >
-      {/* Plant Image */}
       <div
         style={{
           position: "absolute",
-          top: "-180px", // lifted a bit higher
+          top: "-180px", 
           left: isLeft ? "100px" : "auto",
           right: isLeft ? "auto" : "100px",
           width: "601px",
@@ -49,7 +48,6 @@ const PlantCard = ({ data, layout = "left" }) => {
         />
       </div>
 
-      {/* Text Section */}
       <div
         style={{
           maxWidth: "732px",
@@ -99,9 +97,7 @@ const PlantCard = ({ data, layout = "left" }) => {
           {price}
         </span>
 
-        {/* Buttons */}
         <div style={{ display: "flex", alignItems: "center", gap: "24px" }}>
-          {/* Explore Button */}
           <button
             style={{
               width: "217px",
@@ -123,7 +119,6 @@ const PlantCard = ({ data, layout = "left" }) => {
             Explore
           </button>
 
-          {/* Bag Button */}
           <div
             style={{
               width: "64px",
