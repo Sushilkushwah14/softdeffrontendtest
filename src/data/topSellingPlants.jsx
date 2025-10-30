@@ -1,4 +1,4 @@
-// src/data/topSellingPlants.js
+
 
 export const topSellingPlants = [
   {
