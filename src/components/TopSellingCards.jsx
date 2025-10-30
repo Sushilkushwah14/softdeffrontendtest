@@ -3,7 +3,7 @@
 const TopSellingCard = ({ image, name, about, price }) => {
   return (
     <div
-      className="w-[512px] h-[757px] border-2 rounded-[77px] 
+      className="w-lg h-[757px] border-[2px] rounded-[77px] 
       backdrop-blur-[25px] shadow-[0_9px_18px_0_rgba(0,0,0,0.25)]
       border-[2px] border-white/20 relative overflow-hidden flex flex-col items-center"
       style={{
