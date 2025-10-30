@@ -1,4 +1,5 @@
 
+
 import { reviewData } from "../data/reviewData";
 
 const FeaturedReview = () => {
@@ -7,82 +8,33 @@ const FeaturedReview = () => {
   );
 
   return (
-    <section
-      className="relative w-full h-screen flex justify-start items-center bg-transparent"
-    >
+    <section className="relative w-full min-h-screen flex justify-start items-center bg-transparent">
       <div
-        className="absolute"
-        style={{
-          width: "409px",
-          height: "237px",
-          top: "300px",
-          left: "43px",
-          borderRadius: "45px",
-          borderWidth: "1px",
-          borderStyle: "solid",
-          borderColor: "rgba(255,255,255,0.3)",
-          backdropFilter: "blur(25px)",
-          background: "rgba(255,255,255,0.13)",
-          boxShadow: "0px 9px 18px rgba(0,0,0,0.25)",
-        }}
+        className="absolute md:w-[409px] md:h-[237px] w-[80vw] h-[30vh] left-0 top-[20vh]
+                   rounded-[45px] border border-white/30 
+                   backdrop-blur-[25px] bg-white/10 shadow-[0px_9px_18px_rgba(0,0,0,0.25)]"
       >
-        {/* Top Section - Image, Name, and Stars */}
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "12px",
-            position: "absolute",
-            top: "37px",
-            left: "27px",
-            width: "233px",
-            height: "64px",
-          }}
-        >
+        <div className="flex items-center gap-3 absolute top-[37px] left-[27px]">
           <img
             src={ronnieReview.photo}
             alt={ronnieReview.name}
-            style={{
-              width: "54px",
-              height: "54px",
-              borderRadius: "50%",
-              objectFit: "cover",
-            }}
+            className="w-[54px] h-[54px] rounded-full object-cover"
           />
 
           <div>
-            <h2
-              style={{
-                fontFamily: "Inter",
-                fontWeight: 600,
-                fontSize: "18px",
-                color: "#fff",
-                marginBottom: "3px",
-              }}
-            >
+            <h2 className="font-inter font-semibold text-[18px] text-white mb-[3px]">
               {ronnieReview.name}
             </h2>
             <img
               src={ronnieReview.starImage}
               alt="stars"
-              style={{ width: "90px", height: "15px" }}
+              className="w-[90px] h-[15px]"
             />
           </div>
         </div>
 
-        {/* Review Text */}
         <p
-          style={{
-            position: "absolute",
-            top: "120px",
-            left: "27px",
-            width: "340px",
-            fontFamily: "Inter",
-            fontWeight: 400,
-            fontSize: "17px",
-            lineHeight: "100%",
-            color: "rgba(255,255,255,0.9)",
-          }}
+          className="absolute top-[120px] left-[27px] w-[340px] text-[17px] text-white/90 leading-[100%] font-inter font-normal"
         >
           {ronnieReview.review}
         </p>

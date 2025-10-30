@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import TopSellingPlants from "../sections/TopSellingPlants";
 import TrendingPlants from "../sections/TrendingPlants";
 import CustomerReviews from "../sections/CustomerReview";
+import BestO2Section from "../sections/BestO2Section";
+import ProgressBar from "../components/ProgressBar";
 
 const Home = () => {
   return (
@@ -50,6 +52,15 @@ const Home = () => {
       <section className="relative bg-[#0E1C0E] text-white py-[150px]">
         <CustomerReviews />
       </section>
+      <section className="relative bg-[#0E1C0E] text-white py-[150px]">
+         <BestO2Section/>
+         
+      </section>
+      <section className="relative bg-[#0E1C0E] text-white py-[100px] flex justify-center">
+        <ProgressBar />
+      </section>
+      
+     
     </div>
   );
 };
