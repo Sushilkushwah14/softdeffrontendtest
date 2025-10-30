@@ -12,7 +12,7 @@ const PlantCard = ({ data, layout = "left" }) => {
         width: "1619px",
         height: "526px",
         borderRadius: "151px",
-        borderWidth: "2px",
+        borderWidth: "0px",
         borderStyle: "solid",
         borderImage:
           "linear-gradient(135.72deg, rgba(255,255,255,0.27) 8.53%, rgba(255,255,255,0) 60.59%, rgba(255,255,255,0.33) 93.17%) 1",

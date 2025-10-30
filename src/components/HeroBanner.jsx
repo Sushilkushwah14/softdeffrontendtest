@@ -1,4 +1,5 @@
 import FeaturedReview from './FeaturedCard'
+import IndoorePlant from './IndoorePlant'
 
 const HeroBanner = () => {
   return (
@@ -54,6 +55,8 @@ const HeroBanner = () => {
 </div>
 <FeaturedReview/>
 
+
+ <IndoorePlant />
       </div>
 
 

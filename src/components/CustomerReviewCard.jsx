@@ -4,7 +4,7 @@ import React from "react";
 const CustomerReviewCard = ({ photo, name, review, starImage }) => {
   return (
     <div
-      className="w-lg h-[480px] rounded-[77px] border-2 
+      className="w-lg h-[480px] rounded-[77px] border-2px 
       backdrop-blur-[25px] shadow-[0_9px_18px_0_rgba(0,0,0,0.25)]
       flex flex-col items-center justify-start text-center px-8 pt-8"
       style={{

@@ -6,6 +6,8 @@ import TrendingPlants from "../sections/TrendingPlants";
 import CustomerReviews from "../sections/CustomerReview";
 import BestO2Section from "../sections/BestO2Section";
 import ProgressBar from "../components/ProgressBar";
+import Footer from "../components/Footer";
+import IndoorePlant from "../components/IndoorePlant";
 
 const Home = () => {
   return (
@@ -23,8 +25,12 @@ const Home = () => {
 
         <div className="relative z-10 flex flex-col items-start justify-center px-[60px] pt-[250px] pb-[100px]">
           <HeroBanner />
-        </div>
+          
+       </div>
+     
 
+     
+          
         <div className="absolute z-10 bottom-[-220px] w-full flex flex-col items-center">
           <h2
             className="text-white font-semibold text-[54px] mb-[60px]"
@@ -60,7 +66,7 @@ const Home = () => {
         <ProgressBar />
       </section>
       
-     
+     <Footer/>
     </div>
   );
 };

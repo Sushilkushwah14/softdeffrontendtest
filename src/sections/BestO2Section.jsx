@@ -17,11 +17,11 @@ const BestO2Section = () => {
           width: "1600px",
           height: "755px",
           borderRadius: "92px",
-          borderWidth: "3px",
+          borderWidth: "0px",
           borderStyle: "solid",
           borderImage:
             "linear-gradient(101.82deg, rgba(255,255,255,0.44) 2.51%, rgba(0,0,0,0) 39.22%, rgba(255,255,255,0.33) 97.85%) 1",
-          background: "rgba(255,255,255,0.04)",
+          background: "rgba(255,255,255,0.06)",
           backdropFilter: "blur(25px)",
           WebkitBackdropFilter: "blur(25px)",
         }}

@@ -3,12 +3,13 @@
 const TopSellingCard = ({ image, name, about, price }) => {
   return (
     <div
-      className="w-lg h-[757px] border-[2px] rounded-[77px] 
+      className="w-lg h-[757px] border-2px rounded-[77px] 
       backdrop-blur-[25px] shadow-[0_9px_18px_0_rgba(0,0,0,0.25)]
-      border-[2px] border-white/20 relative overflow-hidden flex flex-col items-center"
+      border-2px border-white/20 relative overflow-hidden flex flex-col items-center"
       style={{
         borderImage:
-          "linear-gradient(147.93deg, rgba(255,255,255,0.2) 6.68%, rgba(0,0,0,0) 51.71%, rgba(255,255,255,0.2) 93.27%) 1",
+          "linear-gradient(147.93deg, rgba(255,255,255,0.06) 6.68%, rgba(0,0,0,0) 51.71%, rgba(255,255,255,0.06) 93.27%) 1",
+           background: "rgba(255, 255, 255, 0.06)", // subtle glass effect
       }}
     >
       <div
