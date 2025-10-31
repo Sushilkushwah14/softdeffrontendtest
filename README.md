@@ -99,30 +99,48 @@ landingPage/
 
 ### 1️⃣ Clone the Repository
 git@github.com:Sushilkushwah14/softdeffrontendtest.git
+
 cd LandingPage
+
 npm install
+
 npm run dev
+
 Then open your browser at 👉 http://localhost:5173
 
 🧩 Customization
+
 You can easily modify:
+
 🪴 Plant Image → replace RoseGold3.png in the public/ folder
+
 ✨ Text and Title → edit inside IndoorePlant.jsx
+
 🎨 Background gradient or blur → modify the style object inside the component
+
 💬 Button text or action → update the Buy Now button
 
 🌐 Live Demo
+
 You can host this project easily on Vercel, Netlify, or GitHub Pages.
-After deployment, add your live link below 👇
+
+After deployment, add your live link below �
+�
 🔗 Live Demo: https://your-demo-link.vercel.app
 
 👨‍💻 Author
+
 Sushil Kushwah
+
 Frontend Developer | React.js Enthusiast | MERN stack
 
 📫 Connect with me:
+
 https://www.linkedin.com/in/sushil-kushwah-48a974282/
+
 https://github.com/Sushilkushwah14
 
 📄 License
+
 This project is open-source and available under the MIT License.
+
