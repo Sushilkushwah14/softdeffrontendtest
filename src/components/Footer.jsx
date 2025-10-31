@@ -7,8 +7,9 @@ const Footer = () => {
 
         <div>
           <div className="flex items-center mb-6">
+          
             <img
-              src="/plant-1.png"
+              src="/RG1.png"
               alt="FloraVision logo"
               className="w-[94px] h-[94px] shadow-[0px_100px_80px_#0000002B,0px_46px_37px_#00000020,0px_26px_21px_#0000001B,0px_16px_13px_#00000017,0px_10px_8px_#00000014,0px_5px_4px_#00000010,0px_2px_2px_#0000000B]"
             />

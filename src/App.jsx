@@ -1,10 +1,4 @@
-
-
-import TopSellingCard from "./components/TopSellingCards";
-
-import Home from "./pages/Home";
-import TopSellingPlants from "./sections/TopSellingPlants";
-import TrendingPlants from "./sections/TrendingPlants";
+import Home from "./Pages/Home";
 
 
 const  App=()=> {

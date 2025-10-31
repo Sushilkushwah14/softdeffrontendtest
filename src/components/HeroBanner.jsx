@@ -41,7 +41,7 @@ const HeroBanner = () => {
       <img 
         src="/Polygon.png" 
         alt="play" 
-        className="w-[34px] h-[34px] opacity-75 rotate-90"
+        className="w-[34px] h-[34px] opacity-75 rotate-270"
       />
     </div>
 
