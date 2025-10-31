@@ -27,6 +27,7 @@ The featured product here is the **Aglaonema Plant**, styled elegantly with soft
 - **Vite** – Modern and fast development bundler 
 
 ## 📂 Project Structure
+```
 landingPage/
 ├── public/
 │ ├── bag.png
@@ -143,4 +144,5 @@ https://github.com/Sushilkushwah14
 📄 License
 
 This project is open-source and available under the MIT License.
+
 
